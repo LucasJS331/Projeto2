@@ -17,7 +17,7 @@
         </div>
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
         <p>
-            <asp:Label ID="Label2" runat="server" Text="Senha"></asp:Label>
+            <asp:Label ID="lblSenha" runat="server" Text="Senha"></asp:Label>
         </p>
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
     </form>
