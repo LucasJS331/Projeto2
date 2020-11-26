@@ -8,11 +8,30 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="menu">
-            
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Tela de Login</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Agendamento de consulta</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dados de Consulta</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+        </ul>
+           
+           
         </div>
 
         <div>
