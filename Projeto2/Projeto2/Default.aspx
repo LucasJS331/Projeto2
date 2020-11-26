@@ -15,11 +15,11 @@
             <asp:Label ID="Label1" runat="server" Text="Usuario"></asp:Label>
             
         </div>
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox1" runat="server" PlaceHolder="Usuario"></asp:TextBox>
         <p>
             <asp:Label ID="lblSenha" runat="server" Text="Senha"></asp:Label>
         </p>
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox2" runat="server" PlaceHolder="Senha"></asp:TextBox>
         <p>
             <asp:Button ID="Button1" runat="server" Text="Entrar" type="button" class="btn btn-info" OnClick="Button1_Click" />
         </p>
