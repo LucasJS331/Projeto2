@@ -20,6 +20,9 @@
             <asp:Label ID="lblSenha" runat="server" Text="Senha"></asp:Label>
         </p>
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <p>
+            <asp:Button ID="Button1" runat="server" Text="Button" />
+        </p>
     </form>
 </body>
 </html>
