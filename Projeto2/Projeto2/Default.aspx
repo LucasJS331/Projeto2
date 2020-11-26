@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Login</title>
-    
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -21,7 +21,7 @@
         </p>
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
         <p>
-            <asp:Button ID="Button1" runat="server" Text="Button" />
+            <asp:Button ID="Button1" runat="server" Text="Entrar" type="button" class="btn btn-info" />
         </p>
     </form>
 </body>
