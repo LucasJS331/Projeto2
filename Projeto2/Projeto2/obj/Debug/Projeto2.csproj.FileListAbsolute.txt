@@ -71,3 +71,7 @@ C:\Users\Lucas Galvão\Desktop\PROJETO 2\Projeto2\Projeto2\Projeto2\bin\EntityFr
 C:\Users\Lucas Galvão\Desktop\PROJETO 2\Projeto2\Projeto2\Projeto2\bin\EntityFramework.SqlServer.dll
 C:\Users\Lucas Galvão\Desktop\PROJETO 2\Projeto2\Projeto2\Projeto2\bin\EntityFramework.xml
 C:\Users\Lucas Galvão\Desktop\PROJETO 2\Projeto2\Projeto2\Projeto2\bin\EntityFramework.SqlServer.xml
+C:\Users\Eduardo\Desktop\projeto 2\Projeto2\Projeto2\Projeto2\bin\EntityFramework.dll
+C:\Users\Eduardo\Desktop\projeto 2\Projeto2\Projeto2\Projeto2\bin\EntityFramework.SqlServer.dll
+C:\Users\Eduardo\Desktop\projeto 2\Projeto2\Projeto2\Projeto2\bin\EntityFramework.xml
+C:\Users\Eduardo\Desktop\projeto 2\Projeto2\Projeto2\Projeto2\bin\EntityFramework.SqlServer.xml

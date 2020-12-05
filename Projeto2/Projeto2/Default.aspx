@@ -22,7 +22,7 @@
         <p>
             <asp:Label ID="lblSenha" runat="server" Text="Senha"></asp:Label>
         </p>
-        <asp:TextBox ID="txtSenha" runat="server" PlaceHolder="Senha" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
+        <asp:TextBox ID="txtSenha" runat="server" PlaceHolder="Senha" OnTextChanged="TextBox2_TextChanged" EnableViewState="False" TextMode="Password"></asp:TextBox>
         <p>
             <asp:Button ID="Button1" runat="server" Text="Entrar" type="button" class="btn btn-info" OnClick="Button1_Click" />
         </p>

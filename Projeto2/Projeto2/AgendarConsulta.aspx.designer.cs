@@ -11,7 +11,7 @@ namespace Projeto2
 {
 
 
-    public partial class MostrarConsulta
+    public partial class AgendarConsulta
     {
 
         /// <summary>
@@ -24,15 +24,6 @@ namespace Projeto2
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controle lblBoasVindas.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblBoasVindas;
-
-        /// <summary>
         /// Controle Label1.
         /// </summary>
         /// <remarks>
@@ -42,22 +33,13 @@ namespace Projeto2
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Controle lblNome.
+        /// Controle txtNome.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNome;
-
-        /// <summary>
-        /// Controle Label5.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
+        protected global::System.Web.UI.WebControls.TextBox txtNome;
 
         /// <summary>
         /// Controle Label2.
@@ -69,22 +51,13 @@ namespace Projeto2
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// Controle Label6.
+        /// Controle txtEndereco.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label6;
-
-        /// <summary>
-        /// Controle lblEndereco.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEndereco;
+        protected global::System.Web.UI.WebControls.TextBox txtEndereco;
 
         /// <summary>
         /// Controle Label3.
@@ -96,13 +69,13 @@ namespace Projeto2
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Controle lblCidade.
+        /// Controle txtCidade.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCidade;
+        protected global::System.Web.UI.WebControls.TextBox txtCidade;
 
         /// <summary>
         /// Controle Label4.
@@ -114,39 +87,39 @@ namespace Projeto2
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// Controle lblData.
+        /// Controle txtData.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblData;
+        protected global::System.Web.UI.WebControls.TextBox txtData;
 
         /// <summary>
-        /// Controle Label7.
+        /// Controle checkPlano.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label7;
+        protected global::System.Web.UI.WebControls.CheckBox checkPlano;
 
         /// <summary>
-        /// Controle lblPlano.
+        /// Controle btnCadastrar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPlano;
+        protected global::System.Web.UI.WebControls.Button btnCadastrar;
 
         /// <summary>
-        /// Controle LblPlanoOff.
+        /// Controle btnMostrar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblPlanoOff;
+        protected global::System.Web.UI.WebControls.Button btnMostrar;
     }
 }

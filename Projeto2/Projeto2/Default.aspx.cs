@@ -11,14 +11,19 @@ namespace Projeto2
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-          
+            string usuario = txtUsuario.Text;
+            string senha = txtSenha.Text;
             
-                Response.Redirect("AgendarConsulta.html");
-
-            ConsultaEntities co = new ConsultaEntities();
-            
-
+                if(usuario.Equals("admin") && senha.Equals("123456"))
+            {
+                Response.Redirect("AgendarConsulta.aspx");
             }
+            else
+            {
+                Response.Write("<script>alert('Login ou senha incorretos');</script>");
+            }
+
+          }
 
         protected void TextBox2_TextChanged(object sender, EventArgs e)
         {

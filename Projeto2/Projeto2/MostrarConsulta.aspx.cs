@@ -11,7 +11,19 @@ namespace Projeto2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            AgendarConsulta a = new AgendarConsulta();
 
+            lblNome.Text = Request["txtNome"];
+            lblCidade.Text = Request["txtCidade"];
+            lblData.Text = Request["txtData"];
+            lblEndereco.Text = Request["txtEndereco"];
+
+            lblPlano.Text = Request["checkPlano"];
+
+            if(lblPlano.Text == "on")
+            {
+                LblPlanoOff.Text = "";
+            }
         }
     }
 }
