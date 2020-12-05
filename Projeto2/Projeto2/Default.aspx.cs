@@ -14,14 +14,16 @@ namespace Projeto2
             string usuario = txtUsuario.Text;
             string senha = txtSenha.Text;
             
-                if(usuario.Equals("admin") && senha.Equals("123456"))
-            {
-                Response.Redirect("AgendarConsulta.aspx");
-            }
-            else
-            {
-                Response.Write("<script>alert('Login ou senha incorretos');</script>");
-            }
+             if(usuario.Equals("Admin") && senha.Equals("123456"))
+                {
+                     // Login realizado com sucesso
+                     Response.Redirect("AgendarConsulta.aspx");
+                }
+             else
+                {   
+                    //login falhou
+                    Response.Write("<script>alert('Login ou senha estão incorretos!');</script>");
+                }
 
           }
 

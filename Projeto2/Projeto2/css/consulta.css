@@ -1,11 +1,7 @@
 ﻿body {
-
-
-    font-family: sans-serif;
-    color: #181818;
-    font-size: 30px;
     text-align: center;
+    color: #181818;
     margin-top: 100px;
-
+    font-family: sans-serif;
+    font-size: 26px;
 }
-

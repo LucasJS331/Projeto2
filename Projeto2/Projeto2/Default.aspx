@@ -12,20 +12,20 @@
 <body>
     <form id="form1" runat="server" class = "mx-auto" >
         <div class = "mx-auto">
-        <div>
-            
-            <asp:Label ID="Label1" runat="server" Text="Usuario"></asp:Label>
-            
-        </div>
+            <div>         
+                <asp:Label ID="Label1" runat="server" Text="Usuario:"></asp:Label>
+            </div>
         
-        <asp:TextBox ID="txtUsuario" runat="server" PlaceHolder="Usuario"></asp:TextBox>
-        <p>
-            <asp:Label ID="lblSenha" runat="server" Text="Senha"></asp:Label>
-        </p>
-        <asp:TextBox ID="txtSenha" runat="server" PlaceHolder="Senha" OnTextChanged="TextBox2_TextChanged" EnableViewState="False" TextMode="Password"></asp:TextBox>
-        <p>
-            <asp:Button ID="Button1" runat="server" Text="Entrar" type="button" class="btn btn-info" OnClick="Button1_Click" />
-        </p>
+            <asp:TextBox ID="txtUsuario" runat="server" PlaceHolder="Usuario"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtUsuario" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+            <p>
+                <asp:Label ID="lblSenha" runat="server" Text="Senha:"></asp:Label>
+            </p>
+            <asp:TextBox ID="txtSenha" runat="server" PlaceHolder="Senha" OnTextChanged="TextBox2_TextChanged" EnableViewState="False" TextMode="Password"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtSenha" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+            <p>
+                <asp:Button ID="Button1" runat="server" Text="Entrar" type="button" class="btn btn-info" OnClick="Button1_Click" />
+            </p>
         </div>
     </form>
 </body>

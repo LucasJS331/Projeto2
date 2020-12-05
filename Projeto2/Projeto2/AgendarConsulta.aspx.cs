@@ -16,9 +16,8 @@ namespace Projeto2
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string nome = txtNome.Text;
-            btnMostrar.Enabled = true;
-            
+            //Habilitar o botão de perfil do Usuario
+            btnMostrar.Enabled = true;         
         }
 
         protected void btnMostrar_Click(object sender, EventArgs e)
