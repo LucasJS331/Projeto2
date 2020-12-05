@@ -67,3 +67,7 @@ C:\Users\Eduardo\Desktop\projeto 2\Projeto2\Projeto2\Projeto2\obj\Debug\Projeto2
 C:\Users\Eduardo\Desktop\projeto 2\Projeto2\Projeto2\Projeto2\obj\Debug\Projeto2.csproj.CopyComplete
 C:\Users\Eduardo\Desktop\projeto 2\Projeto2\Projeto2\Projeto2\obj\Debug\Projeto2.dll
 C:\Users\Eduardo\Desktop\projeto 2\Projeto2\Projeto2\Projeto2\obj\Debug\Projeto2.pdb
+C:\Users\Lucas Galvão\Desktop\PROJETO 2\Projeto2\Projeto2\Projeto2\bin\EntityFramework.dll
+C:\Users\Lucas Galvão\Desktop\PROJETO 2\Projeto2\Projeto2\Projeto2\bin\EntityFramework.SqlServer.dll
+C:\Users\Lucas Galvão\Desktop\PROJETO 2\Projeto2\Projeto2\Projeto2\bin\EntityFramework.xml
+C:\Users\Lucas Galvão\Desktop\PROJETO 2\Projeto2\Projeto2\Projeto2\bin\EntityFramework.SqlServer.xml

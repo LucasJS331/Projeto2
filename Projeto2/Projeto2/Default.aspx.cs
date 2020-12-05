@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace Projeto2
 {
@@ -16,7 +11,18 @@ namespace Projeto2
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Consulta.aspx");
+          
+            
+                Response.Redirect("AgendarConsulta.html");
+
+            ConsultaEntities co = new ConsultaEntities();
+            
+
+            }
+
+        protected void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
