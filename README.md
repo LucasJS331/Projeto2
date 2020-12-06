@@ -4,13 +4,12 @@ Requisitos funcionais {
 
   Clínica médica(agendamento de consulta)
  
-  O sistema terá banco de dados, tela de login, tela de agendamento, tela de exibição de dados da consulta
+  O sistema tera tela de login, tela de agendamento, tela de exibição de dados da consulta
 
   Dados do agendamento que o sistema vai armazenar :
     -Nome 
-    -Endereço(vai ser aplicado a regra da Normalização) 
+    -Endereço(bairro, rua, numero)
+    -Cidade
     -Data de nascimento 
-    -Sintomas(opcional) 
-    -Se já é cliente(boolean) 
-    -Planos (ex: padre albino, pae, São Domingos saúde)
+    -Se o Cliente tem Plano de Saúde
 }
